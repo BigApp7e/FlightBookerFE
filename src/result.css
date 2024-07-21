@@ -1,0 +1,126 @@
+.result-header{
+    display: block;
+    text-align: center;
+    margin: 20px;
+}
+
+.item-container{
+    display: flex;
+    flex-direction: row;
+    min-height: 200px;
+    margin: 10px;
+    border: 1px solid #333333;
+    border-radius: 10px;
+}
+
+.destination-holder{
+    height: 200px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-left-align{
+    display: block;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.text-right-align{
+    display: block;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+ 
+}
+.text-center-align{
+    display: block;
+    text-align: center;
+}
+.detail-title{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.bold-text{
+    font-weight: bold;
+   
+}
+
+.empty-grow-div{
+    flex-grow: 1;
+}
+
+.flight-detail{
+    height: 200px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(91, 176, 245);
+}
+
+.newSearchBtn {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #D9EDFF;
+    color: #339DFF;
+    font-size: 13px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 100px;
+    padding: 0 22px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    background: #fff;
+    width: 170px;
+      margin-right: 40px;
+      margin: 10px;
+      cursor: pointer;
+  }
+  
+  .newSearchBtn:hover {
+    box-shadow: 0 2px 4px rgba(83, 100, 255, 0.45);
+  }
+  
+  .newSearchBtn {
+    display: inline-block;
+    margin-right: 10px;
+    background: #339DFF;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 38px;
+    border-radius: 50px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 170px;
+    text-align: center;
+  }
+  
+  .newSearchBtn:hover {
+    background: #fff;
+    color: #339DFF;
+    box-shadow: 0 4px 4px rgba(83, 100, 255, 0.32);
+  }
+
+.book-btn {
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.book-btn:hover {
+    background-color: #0056b3;
+}
+
+.book-btn:active {
+    background-color: #004494;
+    transform: scale(0.95);
+}

@@ -1,0 +1,112 @@
+.searchbar-container {
+    width: 30vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;  
+}
+
+.radio-buttons-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.radio-holder {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.radio-holder input[type="radio"] {
+    margin-right: 10px;
+}
+
+.blue-button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.blue-button:hover {
+    background-color: #0056b3;
+}
+
+.blue-button:active {
+    background-color: #004494;
+    transform: scale(0.95);
+}
+
+.row-inputs-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.row-inputs-container > div {
+    text-align: left;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.persons-input {
+    width: 100%;
+    padding-left: 5px !important;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.input-wrapper {
+    position: relative;
+    width: 100%;
+}
+.input-wrapper label {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.input-wrapper > input {
+    height: 3em;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+    padding-left: 5px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.autocomplete-suggestions {
+    position: fixed; /* Fixed position */
+    display: block;
+    background-color: #ffffff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1000;
+    color: #3b3b3b;
+}
+
+.autocomplete-suggestions li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.autocomplete-suggestions li:hover {
+    background-color: #f0f0f0;
+    color: black;
+}
